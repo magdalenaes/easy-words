@@ -3,9 +3,6 @@
     <h4>{{ title }}</h4>
   </li>
   <li class="collection-item" *ngFor="let word of words" [ngClass]="{ incorrect: word?.correct === false }">
-    Example Verb/Noun
-  </li>
-  <li class="collection-item incorrect">
-    Example Verb/Noun
+    {{ word.word}}
   </li>
 </ul>
