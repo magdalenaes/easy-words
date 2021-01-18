@@ -1,13 +1,14 @@
-## Wymagania projektu
-- Angular CLI & Angular > 9.0.0
-- Node: 12.13.1 lub inna wersja LTS
 
-## Instalacja Angular CLI w specyficznej wersji
+## Project requirements
+- Angular CLI & Angular > 9.0.0
+- Node: 12.13.1 or another version LTS
+
+## Installing Angular CLI in a specific version
 `npm install -g @angular/cli@9.0.0`
 
-## Zainstalowane dodatki
-- prettier - formatowanie kodu
-- tslint-config-prettier - reguły dla tslint, które nie kłócą się z prettierem
+## Installed add-ons
+- prettier - code formatting
+- tslint-config-prettier - rules for tslint that do not conflict with prettier
 
-## Komendy
-- uruchomienie prettiera `npm run format`
+## Commands
+- launch of prettier `npm run format`
